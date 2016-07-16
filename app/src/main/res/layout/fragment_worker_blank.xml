@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rokki.kttsofttest.fragments.WorkerBlankFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimaryDark"
+        >
+
+    <TextView
+        android:layout_margin="8dp"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write in blank"
+        android:layout_gravity="center_horizontal" />
+   </FrameLayout>
+
+
+    <EditText
+        android:hint="full name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_full_name" />
+
+    <Spinner
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner" />
+
+    <EditText
+        android:hint="position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_position" />
+
+    <EditText
+        android:inputType="number"
+        android:hint="age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_age" />
+
+    <EditText
+        android:inputType="number"
+        android:hint="salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_salary" />
+
+    <Button
+        android:layout_margin="18dp"
+        android:hint="save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save" />
+
+
+</LinearLayout>
